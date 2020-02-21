@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/uri",
-	"version": "5.2.12",
+	"version": "5.2.13",
 	"description": "ctx-core uri",
 	"main": "lib.js",
 	"module": "lib.js",
