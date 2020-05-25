@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/uri",
-	"version": "5.2.19",
+	"version": "5.2.20",
 	"description": "ctx-core uri",
 	"type": "module",
 	"main": "lib.js",
@@ -30,7 +30,7 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"@ctx-core/logger": "^3.1.15",
+		"@ctx-core/logger": "^3.1.16",
 		"typescript": "^3.9.3"
 	},
 	"gitHead": "f6383790a17f9641769d65776a7b07ba701cb45c"
