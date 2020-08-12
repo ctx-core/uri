@@ -29,7 +29,6 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"@ctx-core/logger": "^3.1.23",
 		"typescript": "^3.9.7"
 	},
 	"gitHead": "f6383790a17f9641769d65776a7b07ba701cb45c"
