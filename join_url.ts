@@ -6,5 +6,5 @@ export function join_url(url_segment_a1:(string|number|boolean)[]) {
 		} else {
 			return `${url}/${url_segment_str}`
 		}
-	}, '')
+	}, '') as string
 }
