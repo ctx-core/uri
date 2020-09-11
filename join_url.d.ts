@@ -1,1 +1,2 @@
-export declare function join_url(url_segment_a1: (string | number | boolean)[]): string | number | boolean;
+import { url_segment_type } from './url_segment_type';
+export declare function join_url(url_segment_a1: url_segment_type[]): string;
