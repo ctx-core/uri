@@ -1,5 +1,5 @@
 export function _not_null_query_str(query = {}) {
-	const query_str_a1 = []
+	const query_str_a1 = [] as string[]
 	for (let key in query) {
 		const value = query[key]
 		if (value != null) {

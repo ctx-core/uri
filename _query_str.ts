@@ -1,6 +1,6 @@
 export function _query_str(query:query_type = '', prefix = '?') {
 	if (typeof query === 'string') return `${prefix}${query}`
-	const query_str_a1 = []
+	const query_str_a1 = [] as string[]
 	for (let key in query) {
 		const value = query[key]
 		const $value = value == null ? '' : value
