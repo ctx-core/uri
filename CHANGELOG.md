@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 8.1.0
+
+### Minor Changes
+
+- feat: \_query_str: array query params
+
 ## 8.0.1
 
 ### Patch Changes

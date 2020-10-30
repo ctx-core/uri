@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/uri",
-	"version": "8.0.2",
+	"version": "8.1.0",
 	"description": "ctx-core uri",
 	"keywords": [
 		"ctx-core",
@@ -25,6 +25,9 @@
 		"compile": "./node_modules/.bin/tsc -b",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/object": "workspace:^13.0.1"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.5"
