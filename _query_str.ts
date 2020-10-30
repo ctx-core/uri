@@ -20,4 +20,12 @@ export function _query_str(query:query_type = '', prefix = '?') {
 	return query_str_a1.length ? `${prefix}${query_str_a1.join('&')}` : ''
 }
 export const _str__query = _query_str
-export type query_type = string|Record<string, string|number|boolean|(string|number|boolean)[]>
+export type query_type = string|Record<string,
+	string|number|boolean|
+	string[]|
+	number[]|
+	boolean[]|
+	(string|number)[]|
+	(string|boolean)[]|
+	(boolean|number)[]|
+	(string|number|boolean)[]>

@@ -1,25 +1,7 @@
 # @ctx-core/uri
 
-## 8.1.0
-
-### Minor Changes
-
-- feat: \_query_str: array query params
-
-## 8.0.1
+## 8.1.2
 
 ### Patch Changes
 
-- typescript: ^4.0.3 -> ^4.0.5
-
-## 8.0.0
-
-### Major Changes
-
-- Typescript strict checking
-
-## 7.2.6
-
-### Patch Changes
-
-- fix: npm run compile: path to tsc
+- \_query_str: query_type: handle all permutations of array types
