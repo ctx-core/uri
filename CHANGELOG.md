@@ -1,5 +1,12 @@
 # @ctx-core/uri
 
+## 8.1.16
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.9
+
 ## 8.1.15
 
 ### Patch Changes
