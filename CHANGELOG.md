@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 8.1.22
+
+### Patch Changes
+
+- @ctx-core/object@15.0.15
+
 ## 8.1.21
 
 ### Patch Changes
