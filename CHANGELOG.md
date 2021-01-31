@@ -1,5 +1,16 @@
 # @ctx-core/uri
 
+## 9.0.0
+
+### Major Changes
+
+- src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.0.0
+
 ## 8.1.30
 
 ### Patch Changes
