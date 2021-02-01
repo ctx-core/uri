@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 9.0.1
+
+### Patch Changes
+
+- @ctx-core/object@17.0.1
+
 ## 9.0.0
 
 ### Major Changes
