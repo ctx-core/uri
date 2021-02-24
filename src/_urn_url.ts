@@ -4,7 +4,7 @@
  * @returns {string}
  * @see {@link https://danielmiessler.com/study/url-uri/}
  */
-export function _urn_url(uri) {
+export function _urn_url(uri):string {
 	if (!uri) return uri
 	if (
 		uri.indexOf('//') === 0
@@ -13,4 +13,6 @@ export function _urn_url(uri) {
 	) return uri
 	return `//${uri}`
 }
-export const _url__urn = _urn_url
+export {
+	_urn_url as _url__urn
+}

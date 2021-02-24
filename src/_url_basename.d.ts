@@ -1,1 +1,1 @@
-export declare function _url_basename(url: any): any;
+export declare function _url_basename(url: any): string;

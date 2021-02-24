@@ -1,4 +1,4 @@
-export function _not_null_query_str(query = {}) {
+export function _not_null_query_str(query = {}):string {
 	const query_str_a1 = [] as string[]
 	for (let key in query) {
 		const value = query[key]
@@ -8,4 +8,6 @@ export function _not_null_query_str(query = {}) {
 	}
 	return query_str_a1.length ? `?${query_str_a1.join('&')}` : ''
 }
-export const _str__query__not__null = _not_null_query_str
+export {
+	_not_null_query_str as _str__query__not__null
+}

@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 9.1.0
+
+### Minor Changes
+
+- feat: query_T,url_segment_T
+
 ## 9.0.10
 
 ### Patch Changes
