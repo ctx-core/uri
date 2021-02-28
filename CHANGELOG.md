@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 9.1.2
+
+### Patch Changes
+
+- fix: query_T: + { [key:string]:query_value_T }
+
 ## 9.1.1
 
 ### Patch Changes
