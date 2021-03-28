@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 9.1.11
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.4.1
+
 ## 9.1.10
 
 ### Patch Changes
