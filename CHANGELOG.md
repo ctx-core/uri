@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 9.1.12
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.4.2
+
 ## 9.1.11
 
 ### Patch Changes
