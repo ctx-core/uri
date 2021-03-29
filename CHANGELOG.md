@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 9.1.13
+
+### Patch Changes
+
+- version bump
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.4.3
+
 ## 9.1.12
 
 ### Patch Changes
