@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 9.1.15
+
+### Patch Changes
+
+- update dependencies
+
 ## 9.1.14
 
 ### Patch Changes
