@@ -4,7 +4,7 @@
  * @returns {string}
  * @see {@link https://danielmiessler.com/study/url-uri/}
  */
-export function _urn_url(uri):string {
+export function _urn_url(uri:string):string {
 	if (!uri) return uri
 	if (
 		uri.indexOf('//') === 0

@@ -1,4 +1,4 @@
-export function _not_null_query_str(query = {}):string {
+export function _not_null_query_str(query:Record<string, any> = {}):string {
 	const query_str_a1 = [] as string[]
 	for (let key in query) {
 		const value = query[key]

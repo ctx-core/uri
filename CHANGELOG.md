@@ -1,5 +1,16 @@
 # @ctx-core/uri
 
+## 9.2.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.6.0
+
 ## 9.1.29
 
 ### Patch Changes
