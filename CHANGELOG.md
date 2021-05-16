@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 9.2.2
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.6.2
+
 ## 9.2.1
 
 ### Patch Changes
