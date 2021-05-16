@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 9.2.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.6.1
+
 ## 9.2.0
 
 ### Minor Changes
