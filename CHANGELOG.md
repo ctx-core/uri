@@ -1,5 +1,16 @@
 # @ctx-core/uri
 
+## 9.3.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@18.1.0
+
 ## 9.2.10
 
 ### Patch Changes
