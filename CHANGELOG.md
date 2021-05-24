@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 9.3.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/object@18.1.1
+
 ## 9.3.0
 
 ### Minor Changes
