@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 9.2.10
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/object@18.0.6
+
 ## 9.2.9
 
 ### Patch Changes
