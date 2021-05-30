@@ -1,1 +1,1 @@
-export * from './_query_str.test'
+export * from './query_str_.test'
