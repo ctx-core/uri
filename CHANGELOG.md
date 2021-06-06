@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 10.0.3
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/object@19.1.2
+
 ## 10.0.2
 
 ### Patch Changes
