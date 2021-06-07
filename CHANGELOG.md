@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 10.0.4
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/object@19.1.3
+
 ## 10.0.3
 
 ### Patch Changes
