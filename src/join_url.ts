@@ -1,6 +1,6 @@
 import type { url_segment_T } from './url_segment_T'
-export function join_url(url_segment_a1:url_segment_T[]):string {
-	return url_segment_a1.reduce((url, url_segment)=>{
+export function join_url(url_segment_a:url_segment_T[]):string {
+	return url_segment_a.reduce((url, url_segment)=>{
 		const url_segment_str = url_segment.toString()
 		if (~['/', '?', '&'].indexOf(url_segment_str.slice(0, 1))) {
 			return `${url}${url_segment_str}`

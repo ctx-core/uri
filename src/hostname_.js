@@ -1,0 +1,8 @@
+export function hostname_() {
+    const hostname = (typeof window === 'object'
+        && window.location.hostname)
+        || '';
+    return hostname;
+}
+export { hostname_ as _hostname, };
+//# sourceMappingURL=src/hostname_.js.map

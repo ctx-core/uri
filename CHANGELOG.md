@@ -1,5 +1,16 @@
 # @ctx-core/uri
 
+## 11.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@20.0.0
+
 ## 10.0.7
 
 ### Patch Changes
