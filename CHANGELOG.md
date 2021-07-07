@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 11.0.16
+
+### Patch Changes
+
+- update dependencies
+
 ## 11.0.15
 
 ### Patch Changes
