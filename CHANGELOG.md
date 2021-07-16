@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.6
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.7
+
 ## 12.0.5
 
 ### Patch Changes
