@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.3
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.3
+
 ## 12.0.2
 
 ### Patch Changes
