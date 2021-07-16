@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.4
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.5
+
 ## 12.0.3
 
 ### Patch Changes
