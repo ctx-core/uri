@@ -1,5 +1,21 @@
 # @ctx-core/uri
 
+## 12.0.9
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.10
+
+## 12.0.8
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.9
+
 ## 12.0.7
 
 ### Patch Changes
