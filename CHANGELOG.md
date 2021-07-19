@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.10
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.11
+
 ## 12.0.9
 
 ### Patch Changes
