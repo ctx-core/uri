@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.14
+
+### Patch Changes
+
+- typescript: ^4.4.2 -> ^4.4.3
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.18
+
 ## 12.0.13
 
 ### Patch Changes
