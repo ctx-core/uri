@@ -36,7 +36,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/object": "workspace:^21.0.18"
+		"@ctx-core/object": "workspace:^21.0.19"
 	},
 	"devDependencies": {
 		"ava": "^3.15.0",
