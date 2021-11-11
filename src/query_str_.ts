@@ -28,5 +28,5 @@ export type query_value_T =
 export type query_T = string|{ [key:string]:query_value_T }|Record<string, query_value_T>
 export type query_type = query_T
 export {
-	query_str_ as _query_str,
+	query_str_ as query_str_,
 }
