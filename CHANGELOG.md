@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.0.25
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+
 ## 12.0.24
 
 ### Patch Changes
