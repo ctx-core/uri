@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.23
+
+### Patch Changes
+
+- @swc/core: ^1.2.117 -> ^1.2.118
+- Updated dependencies
+  - @ctx-core/object@21.0.29
+
 ## 12.0.22
 
 ### Patch Changes
