@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.27
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/object@22.0.1
+
 ## 12.0.26
 
 ### Patch Changes
