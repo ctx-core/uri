@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.29
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/object@22.0.3
+
 ## 12.0.28
 
 ### Patch Changes
