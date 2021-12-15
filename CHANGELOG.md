@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.30
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/object@22.0.4
+
 ## 12.0.29
 
 ### Patch Changes
