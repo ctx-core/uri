@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.33
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/object@22.0.7
+
 ## 12.0.32
 
 ### Patch Changes
