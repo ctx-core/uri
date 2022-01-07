@@ -1,5 +1,14 @@
 # @ctx-core/uri
 
+## 12.0.37
+
+### Patch Changes
+
+- ava: ^3.15.0 -> ^4.0.0
+- @swc/core: ^1.2.125 -> ^1.2.127
+- Updated dependencies
+  - @ctx-core/object@22.0.11
+
 ## 12.0.36
 
 ### Patch Changes
