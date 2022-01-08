@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.38
+
+### Patch Changes
+
+- sideEffects = false
+- Updated dependencies
+  - @ctx-core/object@22.0.12
+
 ## 12.0.37
 
 ### Patch Changes
