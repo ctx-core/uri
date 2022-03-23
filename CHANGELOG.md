@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.0.40
+
+### Patch Changes
+
+- version bump
+
 ## 12.0.39
 
 ### Patch Changes
