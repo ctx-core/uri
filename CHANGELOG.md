@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.0.41
+
+### Patch Changes
+
+- update dependencies
+
 ## 12.0.40
 
 ### Patch Changes
