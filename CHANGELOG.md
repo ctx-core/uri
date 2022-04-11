@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.0.42
+
+### Patch Changes
+
+- ava: ^4.1.0 -> ^4.2.0
+
 ## 12.0.41
 
 ### Patch Changes
