@@ -1,8 +1,9 @@
-import test from 'ava'
-import type { query_value_T } from '..'
-import { query_str_ } from '..'
-test('query_str_|interface', t=>{
-	t.deepEqual(
+import { test } from 'uvu'
+import { equal } from 'uvu/assert'
+import type { query_value_T } from '../index'
+import { query_str_ } from '../index.js'
+test('query_str_|interface', ()=>{
+	equal(
 		query_str_({
 			number: 1, string: 'a', boolean: true,
 			number_a: [1, 2, 3], string_a: ['a', 'b', 'c'],
@@ -14,8 +15,8 @@ test('query_str_|interface', t=>{
 		'?number=1&string=a&boolean=true&number_a[]=1&number_a[]=2&number_a[]=3&string_a[]=a&string_a[]=b&string_a[]=c&string_or_number_a[]=a&string_or_number_a[]=1&string_or_boolean_a[]=a&string_or_boolean_a[]=true&number_or_boolean_a[]=true&number_or_boolean_a[]=1&string_or_number_or_boolean_a[]=a&string_or_number_or_boolean_a[]=true&string_or_number_or_boolean_a[]=1'
 	)
 })
-test('query_str_|record', t=>{
-	t.deepEqual(
+test('query_str_|record', ()=>{
+	equal(
 		query_str_({
 			number: 1, string: 'a', boolean: true,
 			number_a: [1, 2, 3], string_a: ['a', 'b', 'c'],
@@ -27,6 +28,7 @@ test('query_str_|record', t=>{
 		'?number=1&string=a&boolean=true&number_a[]=1&number_a[]=2&number_a[]=3&string_a[]=a&string_a[]=b&string_a[]=c&string_or_number_a[]=a&string_or_number_a[]=1&string_or_boolean_a[]=a&string_or_boolean_a[]=true&number_or_boolean_a[]=true&number_or_boolean_a[]=1&string_or_number_or_boolean_a[]=a&string_or_number_or_boolean_a[]=true&string_or_number_or_boolean_a[]=1'
 	)
 })
+test.run()
 interface query_I {
 	[key:string]:query_value_T
 	number:number

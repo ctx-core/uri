@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.0.50
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 12.0.49
 
 ### Patch Changes

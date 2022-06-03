@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/uri",
-	"version": "12.0.49",
+	"version": "12.0.50",
 	"description": "ctx-core uri",
 	"keywords": [
 		"ctx-core",
@@ -23,31 +23,28 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"build": "npm run compile",
-		"clean": "rimraf lib && npm run clean:tsbuildinfo",
-		"clean:tsbuildinfo": "rimraf tsconfig.tsbuildinfo && rimraf lib/**/*.d.ts",
-		"compile": "npm run compile:source && npm run compile:declaration",
-		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
-		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
+		"build": ":",
+		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build"
+		"prepublishOnly": "npm run clean && npm run build && npm run test",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "tsm node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
 		"@ctx-core/object": "^22.2.1"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.196",
-		"ava": "^4.2.0",
-		"rimraf": "^3.0.2",
-		"typescript": "next"
+		"c8": "^7.11.3",
+		"check-dts": "^0.6.7",
+		"tslib": "^2.4.0",
+		"tsm": "^2.2.1",
+		"typescript": "next",
+		"uvu": "^0.5.3"
 	},
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	},
-	"ava": {
-		"require": []
 	},
 	"svelte": "./lib/index.js",
 	"sideEffects": false
