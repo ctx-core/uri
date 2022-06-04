@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.0.51
+
+### Patch Changes
+
+- fix: package.json: exports: src/index.js,src/index.d.ts instead of lib/index.js,lib/index.d.ts
+
 ## 12.0.50
 
 ### Patch Changes
