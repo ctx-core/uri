@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.0.65
+
+### Patch Changes
+
+- tslib: ^2.4.1 -> ^2.5.0
+
 ## 12.0.64
 
 ### Patch Changes
