@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.0.66
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/object@24.1.1
+
 ## 12.0.65
 
 ### Patch Changes
