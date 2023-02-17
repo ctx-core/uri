@@ -1,3 +1,7 @@
+/**
+ * @param url{string}
+ * @returns {string}
+ */
 export function url_basename_(url) {
 	if (!url) return url
 	const location = url.split('?')[0]

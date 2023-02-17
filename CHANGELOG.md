@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.1.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+- - url\_\_join: aliased by join_url
+- - not*nullish\_\_query_str*: aliased by not*nullish_query_str*
+
 ## 12.0.69
 
 ### Patch Changes
