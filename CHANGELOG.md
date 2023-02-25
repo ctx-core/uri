@@ -1,5 +1,16 @@
 # @ctx-core/uri
 
+## 12.1.10
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@26.0.0
+
 ## 12.1.9
 
 ### Patch Changes
