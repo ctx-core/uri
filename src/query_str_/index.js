@@ -1,4 +1,10 @@
 import { isArray } from '@ctx-core/object'
+/**
+ * @param {import('./index.d.ts').query_T}[query]
+ * @param {string}[prefix]
+ * @returns {string}
+ * @private
+ */
 export function query_str_(query = '', prefix = '?') {
 	if (typeof query === 'string') return `${prefix}${query}`
 	const query_str_a = []
@@ -15,5 +21,7 @@ export function query_str_(query = '', prefix = '?') {
 	}
 	return query_str_a.length ? `${prefix}${query_str_a.join('&')}` : ''
 }
-export { query_str_ as _str__query }
-export { query_str_ as _query_str, }
+export {
+	query_str_ as _str__query,
+	query_str_ as _query_str,
+}

@@ -1,5 +1,15 @@
 # @ctx-core/uri
 
+## 12.2.0
+
+### Minor Changes
+
+- - searchParams*o*
+
+### Patch Changes
+
+- jsdoc fixes
+
 ## 12.1.10
 
 ### Patch Changes

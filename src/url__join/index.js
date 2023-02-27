@@ -1,5 +1,5 @@
 /**
- * @param url_segment_a{import('../_types').url_segment_T[]}
+ * @param {import('../_types').url_segment_T[]}url_segment_a
  * @returns {string}
  */
 export function url__join(url_segment_a) {

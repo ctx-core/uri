@@ -1,5 +1,5 @@
 /**
- * @param query{Record<string, any>}
+ * @param {Record<string, any>}query
  * @returns {string}
  */
 export function not_nullish__query_str_(query = {}) {

@@ -1,5 +1,5 @@
 /**
- * @param url{string}
+ * @param {string}url
  * @returns {string}
  */
 export function url_basename_(url) {
