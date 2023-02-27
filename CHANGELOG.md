@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.3.0
+
+### Minor Changes
+
+- query*str*: query_T: support Map<string, query_value_T>
+
 ## 12.2.0
 
 ### Minor Changes
