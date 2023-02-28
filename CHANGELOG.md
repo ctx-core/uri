@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.4.0
+
+### Minor Changes
+
+- - query*str\_\_searchParams_o*
+- - query*str\_\_searchParams*
+- query*str*: prefix argument: default value: query[0] === '?' ? '' : '?'
+
 ## 12.3.0
 
 ### Minor Changes
