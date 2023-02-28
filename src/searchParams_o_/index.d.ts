@@ -1,3 +1,3 @@
 export declare function searchParams_o_<
 	O extends object = object
->(url:URL):O
+>(url:URL|URLSearchParams):O

@@ -7,7 +7,7 @@ import { isArray } from '@ctx-core/object'
  */
 export function query_str_(
 	query = '',
-	prefix = '?'
+	prefix = query[0] === '?' ? '' : '?'
 ) {
 	if (typeof query === 'string') return `${prefix}${query}`
 	const query_str_a = []
@@ -25,7 +25,10 @@ export function query_str_(
 	 * @param {string}key
 	 * @param {import('./index.d.ts').query_value_T}in_query_value
 	 */
-	function query_str_a__push(key, in_query_value) {
+	function query_str_a__push(
+		key,
+		in_query_value
+	) {
 		const query_value =
 			in_query_value == null ? '' : in_query_value
 		if (isArray(query_value)) {
