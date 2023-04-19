@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.4.38
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/object@27.4.23
+
 ## 12.4.37
 
 ### Patch Changes
