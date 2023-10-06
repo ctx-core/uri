@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.4.57
+
+### Patch Changes
+
+- @ctx-core/object: ^28.1.0 -> ^28.2.0
+
 ## 12.4.56
 
 ### Patch Changes
