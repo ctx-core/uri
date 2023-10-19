@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.4.58
+
+### Patch Changes
+
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+  - @ctx-core/object@28.2.1
+
 ## 12.4.57
 
 ### Patch Changes
