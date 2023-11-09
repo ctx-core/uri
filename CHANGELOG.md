@@ -1,5 +1,12 @@
 # @ctx-core/uri
 
+## 12.4.62
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@30.0.0
+
 ## 12.4.61
 
 ### Patch Changes
