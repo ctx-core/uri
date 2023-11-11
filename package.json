@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/uri",
-	"version": "12.4.62",
+	"version": "12.5.0",
 	"description": "ctx-core uri",
 	"keywords": [
 		"ctx-core",
@@ -17,12 +17,14 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"files": [
+		"*.d.ts"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
-	"svelte": "./src/index.js",
 	"scripts": {
 		"build": ":",
 		"clean": ":",
@@ -33,7 +35,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^30.0.0"
+		"ctx-core": "^2.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
