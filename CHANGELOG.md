@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.5.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - ctx-core@2.2.1
+
 ## 12.5.1
 
 ### Patch Changes
