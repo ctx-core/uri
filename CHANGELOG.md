@@ -1,5 +1,15 @@
 # @ctx-core/uri
 
+## 12.5.4
+
+### Patch Changes
+
+- package.json: files:
+
+      *.d.ts
+      *.js
+      *.json
+
 ## 12.5.3
 
 ### Patch Changes
