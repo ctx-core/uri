@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.5.15
+
+### Patch Changes
+
+- ctx-core: ^3.3.2 -> ^3.3.3
+
 ## 12.5.14
 
 ### Patch Changes
