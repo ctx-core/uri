@@ -1,5 +1,12 @@
 # @ctx-core/uri
 
+## 12.5.26
+
+### Patch Changes
+
+- tsx: ^4.4.0 -> ^4.5.0
+- ctx-core: ^4.4.0 -> ^4.5.0
+
 ## 12.5.25
 
 ### Patch Changes
