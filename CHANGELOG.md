@@ -1,5 +1,18 @@
 # @ctx-core/uri
 
+## 12.6.0
+
+### Minor Changes
+
+- pathname\_: returns undefined when url argument is nullish
+- pathname\_: + argument: url: default: typeof window === 'object' && new URL(window.location.href)
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@4.16.0
+
 ## 12.5.48
 
 ### Patch Changes
