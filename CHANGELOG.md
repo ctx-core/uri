@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.7.24
+
+### Patch Changes
+
+- tsx: ^4.7.0 -> ^4.7.1
+- Updated dependencies
+  - ctx-core@6.1.2
+
 ## 12.7.23
 
 ### Patch Changes
