@@ -1,5 +1,11 @@
 # @ctx-core/uri
 
+## 12.7.49
+
+### Patch Changes
+
+- ctx-core: ^6.6.2 -> ^6.7.0
+
 ## 12.7.48
 
 ### Patch Changes
