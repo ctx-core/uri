@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/uri",
-	"version": "12.7.54",
+	"version": "12.7.55",
 	"description": "ctx-core uri",
 	"keywords": [
 		"ctx-core",
@@ -42,7 +42,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.8.3"
+		"ctx-core": "^6.9.0"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
