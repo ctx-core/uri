@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/uri",
-	"version": "12.7.80",
+	"version": "12.7.81",
 	"description": "ctx-core uri",
 	"keywords": [
 		"ctx-core",
@@ -47,7 +47,6 @@
 	"devDependencies": {
 		"c8": "^9.1.0",
 		"check-dts": "^0.8.0",
-		"tslib": "^2.6.2",
 		"tsx": "^4.11.2",
 		"typescript": "next",
 		"uvu": "^0.5.6"
