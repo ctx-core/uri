@@ -1,5 +1,13 @@
 # @ctx-core/uri
 
+## 12.7.99
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 12.7.98
 
 ### Patch Changes
